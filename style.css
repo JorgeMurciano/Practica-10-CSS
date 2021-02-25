@@ -1,0 +1,81 @@
+body{
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  p {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  p#uno {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    border: goldenrod 2px solid;
+    background-color: gold;
+    text-align: center;
+  }
+  p#dos {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: green 4px solid;
+    background-color: springgreen;
+    text-align: center;
+  }
+  p#tres {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: yellow 4px solid;
+    background-color: palegoldenrod;
+    text-align: left;
+  }
+  
+  p#cuatro {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: lightskyblue solid;
+    background-color: lightcyan;
+    text-align: right;
+  }
+  
+  p#cinco {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: plum solid;
+    background-color: thistle;
+    text-align: left;
+  }
+  
+  p#seis {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: palevioletred solid;
+    background-color: lightpink;
+    text-align: right;
+  }
+  
+  p:hover {
+    z-index: 3;
+  }
